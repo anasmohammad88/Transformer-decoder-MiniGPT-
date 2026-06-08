@@ -1,4 +1,4 @@
-﻿# Transformer-MiniGPT - Validation Perplexity: ~66.5
+﻿# Transformer-MiniGPT - Validation PPL ~66.5
 
 Transformer-MiniGPT is a decoder-only Transformer language model implemented entirely from scratch in PyTorch.  The project recreates the core architecture used by modern GPT-style large language models and demonstrates the complete training pipeline required for autoregressive language modeling.
 
