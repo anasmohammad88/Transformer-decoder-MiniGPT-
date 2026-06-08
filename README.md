@@ -1,6 +1,6 @@
-﻿# Transformer-MiniGPT
+﻿# Transformer-MiniGPT - Validation Perplexity: ~66.5
 
-Transformer-MiniGPT is a decoder-only Transformer language model implemented entirely from scratch in PyTorch. The project recreates the core architecture used by modern GPT-style large language models and demonstrates the complete training pipeline required for autoregressive language modeling.
+Transformer-MiniGPT is a decoder-only Transformer language model implemented entirely from scratch in PyTorch.  The project recreates the core architecture used by modern GPT-style large language models and demonstrates the complete training pipeline required for autoregressive language modeling.
 
 The implementation includes token embeddings, positional encodings, multi-head causal self-attention, feed-forward networks, residual connections, layer normalization, weight tying, gradient clipping, GPT-style parameter initialization, and next-token prediction training. The model is trained on the WikiText-2 dataset using AdamW optimization, linear learning-rate warmup, cosine decay scheduling, and perplexity-based evaluation.
 
